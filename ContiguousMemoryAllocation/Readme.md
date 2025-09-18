@@ -18,7 +18,7 @@ A C++ console application simulating a **contiguous memory allocation system**. 
 
 | Command | Description |
 |---------|-------------|
-| `RQ <name> <size[K|M]> [f|b|w]` | Request memory for a process. Optional allocation strategy: `f` = first-fit, `b` = best-fit, `w` = worst-fit. |
+| `RQ "name" "size[K,M]" "[f,b,w]"` | Request memory for a process. Optional allocation strategy: `f` = first-fit, `b` = best-fit, `w` = worst-fit. |
 | `RL <name>` | Release memory of a process. |
 | `CMP` or `COMPACT` | Compact memory to merge free spaces. |
 | `STAT` | Display current memory layout (processes and holes). |
